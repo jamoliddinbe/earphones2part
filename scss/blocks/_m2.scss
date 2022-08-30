@@ -1,0 +1,64 @@
+.mark2{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto;
+    align-items: center;
+    &__box{
+        width: 450px;
+        h3{
+            color: #D87D4A;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 10px;
+        }
+        h1{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+    .mark__btn{
+        width: 160px;
+        height: 48px;
+        background-color: #D87D4A;
+        color: white;
+        font-size: 13px;
+        line-height: 18px; 
+        border: none;
+    }
+   .mark__btn:active{
+        background-color: #FBAF85;
+    }
+}
+@media screen and (max-width:768px){
+    .mark2{
+       width: 768px;
+        flex-direction: column;
+        text-align: center;
+        &__img{
+            background-color: #F1F1F1;
+            margin-bottom: 60px;
+            width: 689px;
+            height: 352px;
+        }
+    }
+}
+@media screen and (max-width:375px){
+    .mark2{
+        width: 375px;
+        flex-direction: column;
+        text-align: center;
+        &__img{
+            width: 327px;
+            height: 352px;
+        }
+        &__box{
+            width: 320px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+  padding-bottom: 50px;
+    hr{
+        width: 90%;
+        height: 1px;
+        background-color: white;
+        opacity: 0.2;
+    }
+}
+@media screen and (max-width:768px){
+    .hero{
+        width: 768px;
+    }
+}
+@media screen and (max-width:375px){
+    .hero{
+        width: 375px;
+        hr{
+            width: 100%;
+        }
+    }
+}
